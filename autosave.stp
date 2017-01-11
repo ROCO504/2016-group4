@@ -1,0 +1,518 @@
+[Codamotion]
+Version=6.70.10-CX1/MPX30
+ClinicalGait=1
+FreestyleGait=1
+
+[Information]
+DataDirectory=D:\Simon\Dropbox\ROCO504\ (F)\throw
+StpDirectory=D:\Simon\Dropbox\ROCO504\ (F)\throw
+Date=110117
+Time=2117
+
+[CODA]
+Number=0
+Configuration=0
+Active=0,0,0,0,0,0
+ExtSync=0
+NumberForce=0
+ActiveForce=0,0,0,0,0
+NumberADC=0
+ActiveADC=0
+AlignmentMarkersA=1,1,2,1,3,0,0
+AlignmentMarkersB=0,0,0,0,0,0,0
+AlignmentOptions=1,1,0,0,0,0
+AlignmentParameters=0.0,0.0,0.0,0.0,0.0,0.0
+
+[AppOptions]
+NoStartMaximized=0
+ConfirmExit=1
+SetupsWithDatafiles=1
+AutoLoadSetup=1
+ActivityLogging=0
+WalkwayAlongYaxis=0
+AcquisitionPreStrobe=0
+AutoCalMpx=1
+FPlateCOPCorrection=0
+FPlateAutoOffset=0
+FPlateValidThreshold=10
+SaveAutoCalMpxFile=0
+AutoSaveTextFile=0
+SaveTextInViewFlags=0
+AutoClose=1
+AutoSummary=0
+AutoShowConfig=0
+AutoShowInView=1
+AutoZoom=0
+AutoComments=1
+AutoExportConfirm=1
+NoWarnOrigin=0
+NoConfirmInit=0
+RemoteConrol=0
+AnimationTimer=50
+StickfigGreyOut=0
+AssumeColourPrinter=0
+GaitColoursLR=1
+NoAcquisitionBeeps=0
+
+[Acquisition]
+Markers=1-8
+AutoStart=1-24
+Options=3.000000,0,0,1,200,0,0,0,400,28,0,0,0,0,1,0,1,0,0,0,0,0,1
+Transform=CodaAlignment
+ADCchannels=FF,FF,0,0,FF,FF,0,0
+ADCrates=1000,2000,1000,1000,1000,1000,1000,1000
+ForceOptions=0,0,1,2,0
+EMGOptions=0,1
+ADCOptions=0,0
+
+[AcqModeSetup]
+Mode=1
+Marker=1
+CorrelParams=0.980,0.900,4015
+ISensitivity=1.000
+
+[MultiAcquisition]
+FilenamePrefix=throw
+FilenameExtn=MDF
+FilenameNum=1
+StopNum=9999
+Showtime=3
+Options=0,1,0,0,0,0
+
+[Triggers]
+Number=2
+Channl0=0
+Marker0=0
+TrigXYZ0=1,0,0
+Threshold0=0.0,0.0,0.0
+EnableDelay0=0,0
+Delay0=0
+SingleShot0=0
+Channl1=1
+Marker1=0
+TrigXYZ1=0,0,1
+Threshold1=0.0,0.0,0.0
+EnableDelay1=0,0
+Delay1=0
+SingleShot1=0
+
+[RealTimeStickFigure]
+ViewLimitsX=-3750, 3750
+ViewLimitsY=-1930, 1930
+ViewLimitsZ=-1080, 2720
+ViewOptions=0, 0, 1, 1, 0
+
+[Markers]
+Number=56
+Name0=distal_hand
+Col0=0,255,255
+Name1=proximal_hand
+Col1=255,255,0
+Name2=distal_radius
+Col2=255,0,255
+Name3=proximal_radius
+Col3=0,255,0
+Name4=distal_humerus
+Col4=255,128,128
+Name5=proxinmal_humerus
+Col5=255,128,128
+Name6=distal_scapula
+Col6=255,128,0
+Name7=proximal_scapula
+Col7=255,128,0
+Name8=L.Knee
+Col8=0,255,255
+Name9=L.Ankle
+Col9=255,255,0
+Name10=L.Heel
+Col10=0,255,255
+Name11=L.Toe
+Col11=255,0,0
+Name12=R.PSIS
+Col12=0,255,255
+Name13=R.ASIS
+Col13=255,255,0
+Name14=R.Post.Fem.
+Col14=255,0,255
+Name15=R.Ant.Fem.
+Col15=0,255,0
+Name16=R.Post.Tib.
+Col16=255,128,128
+Name17=R.Ant.Tib.
+Col17=255,128,128
+Name18=R.Knee
+Col18=255,128,0
+Name19=R.Ankle
+Col19=255,128,0
+Name20=R.Heel
+Col20=0,255,255
+Name21=R.Toe
+Col21=255,255,0
+Name22=Lacromion
+Col22=128,255,255
+Name23=Racromion
+Col23=255,0,0
+Name24=25
+Col24=128,255,255
+Name25=26
+Col25=128,255,255
+Name26=27
+Col26=128,255,255
+Name27=28
+Col27=128,255,255
+Name28=Marker 29
+Col28=255,128,0
+Name29=Marker 30
+Col29=128,128,0
+Name30=Marker 31
+Col30=255,0,255
+Name31=Marker 32
+Col31=0,128,255
+Name32=Marker 33
+Col32=255,0,0
+Name33=Marker 34
+Col33=255,255,0
+Name34=Marker 35
+Col34=0,255,0
+Name35=Marker 36
+Col35=0,255,255
+Name36=Marker 37
+Col36=255,128,0
+Name37=Marker 38
+Col37=128,128,0
+Name38=Marker 39
+Col38=255,0,255
+Name39=Marker 40
+Col39=0,128,255
+Name40=Marker 41
+Col40=255,0,0
+Name41=Marker 42
+Col41=255,255,0
+Name42=Marker 43
+Col42=0,255,0
+Name43=Marker 44
+Col43=0,255,255
+Name44=Marker 45
+Col44=255,128,0
+Name45=Marker 46
+Col45=128,128,0
+Name46=Marker 47
+Col46=255,0,255
+Name47=Marker 48
+Col47=0,128,255
+Name48=Marker 49
+Col48=255,0,0
+Name49=Marker 50
+Col49=255,255,0
+Name50=Marker 51
+Col50=0,255,0
+Name51=Marker 52
+Col51=0,255,255
+Name52=Marker 53
+Col52=255,128,0
+Name53=Marker 54
+Col53=128,128,0
+Name54=Marker 55
+Col54=255,0,255
+Name55=Marker 56
+Col55=0,128,255
+
+[Force]
+Number=2
+Name0=Force1
+Col0=0,255,0
+Name1=Force2
+Col1=255,255,0
+
+[EMG]
+Number=48
+Name0=1
+Col0=255,0,0
+Name1=2
+Col1=0,255,0
+Name2=3
+Col2=0,0,255
+Name3=4
+Col3=255,128,0
+Name4=5
+Col4=255,0,0
+Name5=6
+Col5=0,255,0
+Name6=7
+Col6=0,0,255
+Name7=8
+Col7=255,128,0
+Name8=L rectus
+Col8=255,0,0
+Name9=LHam
+Col9=255,255,0
+Name10=spre
+Col10=0,255,0
+Name11=spare
+Col11=0,255,255
+Name12=R Rectus
+Col12=255,128,0
+Name13=RHam
+Col13=128,128,0
+Name14=spare
+Col14=255,0,255
+Name15=spare
+Col15=0,128,255
+Name16=ADC 17
+Col16=255,0,0
+Name17=ADC 18
+Col17=255,255,0
+Name18=ADC 19
+Col18=0,255,0
+Name19=ADC 20
+Col19=0,255,255
+Name20=ADC 21
+Col20=255,128,0
+Name21=ADC 22
+Col21=128,128,0
+Name22=ADC 23
+Col22=255,0,255
+Name23=ADC 24
+Col23=0,128,255
+Name24=ADC 25
+Col24=255,0,0
+Name25=ADC 26
+Col25=255,255,0
+Name26=ADC 27
+Col26=0,255,0
+Name27=ADC 28
+Col27=0,255,255
+Name28=ADC 29
+Col28=255,128,0
+Name29=ADC 30
+Col29=128,128,0
+Name30=ADC 31
+Col30=255,0,255
+Name31=ADC 32
+Col31=0,128,255
+Name32=ADC 33
+Col32=255,0,0
+Name33=ADC 34
+Col33=255,255,0
+Name34=ADC 35
+Col34=0,255,0
+Name35=ADC 36
+Col35=0,255,255
+Name36=ADC 37
+Col36=255,128,0
+Name37=ADC 38
+Col37=128,128,0
+Name38=ADC 39
+Col38=255,0,255
+Name39=ADC 40
+Col39=0,128,255
+Name40=ADC 41
+Col40=255,0,0
+Name41=ADC 42
+Col41=255,255,0
+Name42=ADC 43
+Col42=0,255,0
+Name43=ADC 44
+Col43=0,255,255
+Name44=ADC 45
+Col44=255,128,0
+Name45=ADC 46
+Col45=128,128,0
+Name46=ADC 47
+Col46=255,0,255
+Name47=ADC 48
+Col47=0,128,255
+
+[Digital]
+
+[Virtual Markers]
+Number=1
+Name0=sacral wand
+Col0=0,255,0
+Markers0=0,1,
+Weights0=1.000,1.000,
+Offset10=0.0
+Offset20=0.0
+
+[Rigid Bodies]
+Number=0
+
+[Joint Angles]
+Number=0
+
+[Vector Angles]
+Number=3
+Name0=wrist__forearm
+VectorAngle0=1,0,0,3,2,0,0,0,2,0.000000,0,1
+Name1=foream_arm
+VectorAngle1=3,2,0,5,4,0,0,0,2,180.000000,1,1
+Name2=scapula_humerus
+VectorAngle2=5,4,0,6,7,0,0,0,2,0.000000,0,1
+
+[Filters]
+Filtering=1
+Interpolation=1
+EpochInterpolation=1
+MarkerDeSkew=1
+Marker X=100
+Marker Y=20
+Marker Z=100
+Velocity=20
+Acceleration=20
+Angle=50
+Force=100
+RealTimeMarkers=10
+ADCEMGFiltering=1
+ADCEMG_Filtering=1,0,0,0,0,0,0,0
+ADCEMG_Deglitch=0,0,0,0,0,0,0,0
+ADCEMG_AutoOffset=0,0,0,0,0,0,0,0
+ADCEMG_Rectify=0,0,0,0,0,0,0,0
+ADCEMG_FilterWidth=4,2,2,2,2,2,2,2
+ForceFiltering=0
+Force_PlateType=0,0,0,0,0
+Force_Filtering=0,0,0,0,0
+Force_AutoOffset=0,0,0,0,0
+Force_CutoffFreq=200,200,200,200,200
+
+[FileOptions]
+SaveAcqData=0,0,0,1,0
+SaveCalcData=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+SaveZoomedOnly=0
+SaveNSamples=0,100
+SaveTextHeader=1
+SaveTextSampleNum=0
+
+[DataTransform]
+Active=0,0
+Axes=0,1
+Markers=0,0,1,0,0
+OffsetRotns=0.000,0.000,0.000
+OffsetRotnAxes=0,1,2
+Offset=0,0,0
+FilterFactor=1.000
+
+[StickFigures]
+Number=19
+Join0=-1,2,1
+Join1=-1,12,1
+Join2=2,3,1
+Join3=4,5,1
+Join4=6,7,1
+Join5=8,9,1
+Join6=9,10,1
+Join7=10,11,1
+Join8=11,9,1
+Join9=12,13,1
+Join10=14,15,1
+Join11=16,17,1
+Join12=18,19,1
+Join13=19,20,1
+Join14=20,21,1
+Join15=21,19,1
+Join16=22,23,1
+Join17=22,3,1
+Join18=23,13,1
+
+[StickFiguresForce]
+Number=2
+Join0=2,3
+Join1=0,1
+
+[Variables]
+Number=17
+VarName0=Gait Parameters
+VarID0=9
+VarName1=Percent Stance
+VarID1=8
+VarName2=Hip Range
+VarID2=6
+VarName3=Knee Range
+VarID3=6
+VarName4=Ankle Range
+VarID4=6
+VarName5=L hip gr cont
+VarID5=0
+VarName6=R hip gr cont
+VarID6=0
+VarName7=L kn gr cont
+VarID7=0
+VarName8=R kn gr cont
+VarID8=0
+VarName9=L kn psa
+VarID9=0
+VarName10=R kn psa
+VarID10=0
+VarName11=L kn max ext st
+VarID11=0
+VarName12=R kn ext st
+VarID12=0
+VarName13=L ank gr cont
+VarID13=0
+VarName14=R ank gr cont
+VarID14=0
+VarName15=L max dorsi flex sw
+VarID15=0
+VarName16=R max dorsi flex sw
+VarID16=0
+
+[Video Capture]
+Enable=0
+CaptureDevice=0
+FrameRate=10.00
+Compressor=
+Quality=75
+KeyFrameEvery=1
+SaveAsAVI=0
+DefaultOffset=0.200
+RateScale=1.000
+
+[Graphs]
+Name0=
+AbsZero0=1
+PlotNames0=1
+CursorPercent0=0
+WhiteBkgrnd0=0
+Graph0Plot0=0,0,0,1,7,0,1.000000,0.000000,0,0,0,0.000000,0,-200.000000,1200.000000,0,0.000000,3.000000
+Graph0Plot1=0,0,0,1,6,0,1.000000,0.000000,0,0,0,0.000000,0,-200.000000,1200.000000,0,0.000000,3.000000
+Graph0Plot2=0,0,0,1,5,0,1.000000,0.000000,0,0,0,0.000000,0,-200.000000,1200.000000,0,0.000000,3.000000
+Graph0Plot3=0,0,0,1,4,0,1.000000,0.000000,0,0,0,0.000000,0,-200.000000,1200.000000,0,0.000000,3.000000
+Graph0Plot4=0,0,0,1,3,0,1.000000,0.000000,0,0,0,0.000000,0,-200.000000,1200.000000,0,0.000000,3.000000
+Graph0Plot5=0,0,0,1,2,0,1.000000,0.000000,0,0,0,0.000000,0,-200.000000,1200.000000,0,0.000000,3.000000
+Graph0Plot6=0,0,0,1,1,0,1.000000,0.000000,0,0,0,0.000000,0,-200.000000,1200.000000,0,0.000000,3.000000
+Graph0Plot7=0,0,0,1,0,0,1.000000,0.000000,0,0,0,0.000000,0,-200.000000,1200.000000,0,0.000000,3.000000
+Graph0NumPlots=8
+Placement0=0,2,0,669,-1,-1,66,114,1359,623,1536,801
+Name1=
+AbsZero1=1
+PlotNames1=1
+CursorPercent1=0
+WhiteBkgrnd1=0
+Graph1Plot0=0,0,0,12,2,0,1.000000,0.000000,0,0,0,0.000000,0,30.000000,89.000000,0,0.000000,3.000000
+Graph1Plot1=0,0,0,12,1,0,1.000000,0.000000,0,0,0,0.000000,0,30.000000,89.000000,0,0.000000,3.000000
+Graph1Plot2=0,0,0,12,0,0,1.000000,0.000000,0,0,0,0.000000,0,30.000000,89.000000,0,0.000000,3.000000
+Graph1NumPlots=3
+Placement1=0,2,160,669,-1,-1,22,84,647,532,1536,801
+Number=2
+
+[2DViews]
+Axis0=1
+InvAxis0=0
+ShowTrajs0=0
+AllEpochs0=0
+ShowAxes0=1
+ShowMarkers0=1
+ShowVirtualMarkers0=0
+WhiteBkgrnd0=0
+AlwaysRedrawAll0=0
+Dispersion0=0,0
+MarkerSize0=20
+ScaleOffset0=0.201688,0.201688,-2179.497559,2086.587646
+VPlacement0=2,3,320,669,-8,-31,657,37,1455,546,1536,801
+Number=1
+
+[TextViews]
+
+[VideoViews]
+Number=0
+
+[End]

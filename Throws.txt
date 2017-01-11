@@ -1,0 +1,33 @@
+0001 - Calibration
+0002 - Human Swing? Good no ball
+0003 - proximal 91% all others 100%
+0004 -distal 99%, proximal 90%
+0005 - proximal 37%
+0006 - no proximal
+0007 - proxiaml 86%
+0008 -  All 100 good, bit short
+0009 - all 100 good, no back swing
+0010 - 94% Proximal Arm stays up for a bit!?
+20001 - Robot, ball tracked, lose ball at end (50% View)
+20002 - Ball tracked 70/80% 
+20003 - Dropped the ball
+20004 - Ball tracked 70/80%
+20005 - Lose ball early, short video so shows 90%
+20006 - Short throw, video cut short
+20007 - Good short throw almost 100%
+20008 - short throw loses ball at end
+20009 - short throw shows bounce/grab?
+20010 - Long throw loses ball at end
+20011 - long throw 90% ball track
+20012 - long throw ball lost 80% track
+20013 - long throw quite good
+30001 - Human Throw 50 % ball tracking
+30002 - tracks throw well, one sensor not tracked in hand
+30003 - 70% track loses at end
+30004 - 60/70% track loses at end
+30005 - tracks throw well, one sensor not tracked in hand
+30006 - loses ball quite bit before end
+30007 - Good 70% track
+30008 - Good see bounce as ball lands
+30009 - Good 60/70%
+
